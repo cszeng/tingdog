@@ -1,0 +1,170 @@
+/* Tag Selector */
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.price-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+.textimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-heading{
+  font-size:1.5rem;
+}
+
+/* Class Selector */
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+.colored-section{
+  background-color: #ff4c6a;
+  color: #fff
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  /* font-family: 'Montserrat-light'; */
+}
+
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%
+}
+
+.icon{
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+.social-icon{
+  margin:20px 10px;
+
+}
+/* Section Selector */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Feature Section */
+#features{
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials{
+  background-color:#EF8172;
+}
+
+#press{
+    background-color:#EF8172;
+    padding-bottom: 3%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+
+
+#footer{
+  background-color: #fff;
+}
+
+
+
+
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+
+/* Major studies in seismic design methods have been gradually shifting from conventional force-based seismic design (FBSD) to alternative performance-based seismic design (PBSD) in recent years. PBSD aims to control damage level of a structure subjected to different intensities of seismic loading by restricting the performance level in terms of deformation metrics such as the interstory drift ratio (IDR) and the plastic rotation of structural members. Additionally, successful implementation of the emerging performance-based structural health monitoring (SHM) fundamentally depends upon the understanding the relationship between deformation parameters and damage measures. Many research efforts have been conducted to obtain the key nonlinear response of structures under seismic loads such as IDR. However, an efficient approach is absent in literature and is urgently required to enhance both PBSD and performance based SHM. To this aim, this work presents a dynamic measurement approach for plastic hinge rotation in reinforced concrete (RC) columns using a micro-electronic mechanical system (MEMS)-based inclinometer. */
